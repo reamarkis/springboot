@@ -12,6 +12,6 @@ class HelloWorld {
 	@RequestMapping("/")
 	@ResponseBody
 	ResponseEntity<String> helloWorld() {
-		return new ResponseEntity<String>("Hello World!", HttpStatus.OK);
+		return new ResponseEntity<String>("Hello World! with Spring", HttpStatus.OK);
 	}
 }
